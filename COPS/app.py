@@ -7,7 +7,7 @@ import google.generativeai as genai
 # --- Initialization and CSV Loading ---
 
 # Load API key (ensure GEMINI_API_KEY is set in your environment or replace with your key)
-api_key = os.getenv("GEMINI_API_KEY") or "AIzaSyB_oi6MX3wsJUm1XB94NdaYxdVwqxNw_uo"
+api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel(model_name="gemini-pro")
 
@@ -268,3 +268,4 @@ elif st.session_state.step == "show_result":
         st.session_state.result = None
         if hasattr(st, "experimental_rerun"):
             st.experimental_rerun()
+
