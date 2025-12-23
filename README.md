@@ -26,7 +26,7 @@ It may also be possible that the user has a specific interest in some particular
 The shown list of the colleges can directly be downloaded or exported according to the usage of the user.
 
 4. API Reference
-“AIzaSyB_oi6MX3wsJUm1XB94NdaYxdVwqxNw_uo"
+Gemini API key
 
 5. Troubleshooting
 Common Issues with Google Gemini AI API Key
