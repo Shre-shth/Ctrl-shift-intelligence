@@ -1,4 +1,4 @@
-College GPT - 
+College GPT-
 
 Table of Contents :
 Introduction
